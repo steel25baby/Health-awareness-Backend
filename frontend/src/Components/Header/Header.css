@@ -1,0 +1,77 @@
+.Header-heading{
+    display: flex;
+    gap: 3rem;
+    justify-content: center;
+    align-items: center;
+    border-bottom: 2px solid #edf0f5;
+    box-shadow: 0px 0px 2px 0px #1374e9;
+}
+.Header-heading img{
+    width: 100px;
+    height: 15vh;
+}
+.Header-heading h1{
+   color:#1374e9;
+   font-size: 50px; 
+   text-align: center; 
+}
+@media screen  and (max-width: 34.3em){
+    .Header-heading{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        flex-wrap: wrap;
+    } 
+}
+.Header-nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 4rem;
+}
+.Header-nav-list{
+    margin: auto;
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    gap: 4rem;
+    text-transform: capitalize;
+}
+.Header-nav-list a{
+    text-decoration: none;
+    color: #1374e9;
+}
+@media screen and (max-width:54.5em) {
+    .Header-nav{
+        flex-wrap: wrap;
+    }
+}
+@media screen and (max-width:54.5em) {
+    .Header-nav-list{
+        flex-wrap: wrap;
+    }
+}
+.Header-ctas{
+    display: flex;
+    gap: 2rem;
+    margin-top: .5rem;
+}
+.Header-ctas .First-btn{
+    background: #1374e9;
+    text-decoration: none;
+    padding: 10px 20px;
+    border-radius: 10px;
+}
+.Header-ctas .Second-btn{
+    background: #1374e9;
+    text-decoration: none;
+    padding: 10px 25px;
+    border-radius: 10px;
+}
+@media screen and (max-width:54.5em) {
+    .Header-ctas{
+        flex-wrap: wrap;
+    }
+    
+}

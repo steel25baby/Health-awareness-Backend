@@ -1,0 +1,19 @@
+.info-icons{
+    display: flex;
+    flex-direction: row;
+    background-color: #1374e9;
+    justify-content: center;
+    gap: 10rem;
+    align-items: center;
+}
+.Contact{
+    display: flex;
+    /* flex-direction: column; */
+    justify-content: center;
+    align-items: center;
+}
+@media screen and (max-width:61.9em) {
+    .info-icons{
+        flex-wrap: wrap;
+    }
+}

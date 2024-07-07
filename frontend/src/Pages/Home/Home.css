@@ -1,0 +1,127 @@
+/* Start of Hero section */
+.carousel img{
+    max-width: 800px;
+    max-height: 70vh;
+    margin-bottom: 7%;
+}
+/* End of Hero section */
+/* start of the about section */
+.About-heading{
+    display: flex;
+    justify-content: center;
+    font-size: 60px;
+    font-weight: 300;
+    color: #1374e9;
+    margin-top: -6rem;
+}
+.Topics{
+    display: flex;
+    /* justify-content: space-between; */
+    padding: 2rem;  
+    border: #1374e9 solid 1px;
+    gap: 2rem;
+}
+.Topic1{
+    background-color: #1374e9;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+}
+.Topic1 h1{
+    font-size: 80px;
+    margin-top: 1rem;
+    margin-bottom: 0rem;
+}
+.Topic1 h2{
+    color: #ffffff;
+    font-size: 30px;
+}
+.Topic1 p{
+    text-align: center;
+}
+.Topic2{
+    background-color: #424661;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.Topic2 h1{
+    font-size: 80px;
+    margin-top: 1rem;
+    margin-bottom: 0rem;
+}
+.Topic2 h2{
+    color: #ffffff;
+    font-size: 30px;
+}
+.Topic2 p{
+    text-align: center;
+}
+@media screen and (max-width:53.5em) {
+    .Topic1{
+        flex-wrap: wrap;
+    }
+}
+@media screen and (max-width:53.5em) {
+    .Topic2{
+        flex-wrap: wrap;
+    }
+}
+/* End of about section */
+
+/* start of sample services section */
+.Sample-services{
+    border: #424661 solid 2px;
+    padding: 1rem;
+    margin: 1rem;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    gap: 4rem;
+}
+.sample-services-heading{
+    text-align: center;
+    text-transform: uppercase;
+    font-size: 25px;
+    color: #1374e9;
+}
+.Sample-card{
+    max-width: 20em;
+    height: 60vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border-radius: 25px;
+    overflow: hidden;
+    gap: 1rem;
+    border: #1374e9 solid 2px;
+    padding: 1rem;
+}
+.sample-image{
+ width: 100%;
+ height: 40vh;
+ object-fit: cover;
+ overflow: hidden;
+}
+.sample-image img{
+    width: 100%;
+    height: 100%;
+}
+.sample-details h1{
+    text-align: center;
+    color: #1374e9;
+}
+.sample-details p{
+    text-align: center;
+    font-size: 17px;
+    font-weight: 400;
+}
+.sample-details h4{
+    text-align: center;
+}
+
