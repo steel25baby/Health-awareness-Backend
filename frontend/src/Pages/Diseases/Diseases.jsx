@@ -15,10 +15,10 @@ const Diseases = () => {
         return res.json();
       })
       .then(data => {
-        console.log(data); // Check the structure of the fetched data
-        const diseases = data.diseases; // Access the 'diseases' property
-        setData(Array.isArray(diseases) ? diseases : []); // Ensure data is an array
-        setFilterData(Array.isArray(diseases) ? diseases : []); // Ensure filterData is an array
+        console.log(data); 
+        const diseases = data.diseases; 
+        setData(Array.isArray(diseases) ? diseases : []); 
+        setFilterData(Array.isArray(diseases) ? diseases : []); 
         setLoading(false);
       })
       .catch(err => {
